@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/mobile.css" media="(max-width: 767px)">
     <link rel="stylesheet" href="css/pc.css" media="(min-width: 768px)">
+    <script src="script/main.js" defer></script>
 </head>
 <body>
     <div class="title-container">
@@ -24,9 +25,10 @@
                  <a href="#" class="btn">signup</a>
             </nav>
             <!-- 모바일 토글 버튼 -->
-            <button id="btn-toggle"><span class="material-symbols-outlined">
+            <button id="btn-toggle" onclick="toggleMenu()"><span class="material-symbols-outlined">
                 menu
                 </span></button>
+            <button id="btn-close">X</button> 
         </header>
         <section id="title" class="container">
             <div>
