@@ -1,3 +1,57 @@
 /* pc.css */
-body { background-color: lightblue; }
-.mobile { display: none; }
+.container {
+    width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.title-container {
+    background: url('../images/title.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container header {
+    /* position: absolute; */
+    /* background: #ccc; */
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+}
+
+.title-container header nav a {
+    margin-left: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#title {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#title h2 {
+    font-size: 80px;
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 4px 1em;
+}
+
+/* PC에서는 토글 버튼 제거 */
+#btn-toggle {
+    display: none;
+}

@@ -4,12 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
+    <!-- 아이콘 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/mobile.css" media="(max-width: 767px)">
     <link rel="stylesheet" href="css/pc.css" media="(min-width: 768px)">
 </head>
 <body>
-    <h1>반응형 레이아웃</h1>
-    <p class="mobile">모바일 화면에서 보입니다. 배경색은 노랑색</p>
-    <p class="pc">PC 화면에서 보입니다. 배경색은 파랑색</p>
+    <div class="title-container">
+        <header>
+            <h1>
+                <a href="./">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </h1>
+            <nav>
+                 <a href="#">about</a>
+                 <a href="#">articles</a>
+                 <a href="#" class="btn">signup</a>
+            </nav>
+            <!-- 모바일 토글 버튼 -->
+            <button id="btn-toggle"><span class="material-symbols-outlined">
+                menu
+                </span></button>
+        </header>
+        <section id="title" class="container">
+            <div>
+                <h2>Travel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+                    Sunt perferendis corporis facilis dolor eius molestias ullam. Beatae tempore odit nam.</p>
+            </div>
+        </section>
+    </div>
+
+
 </body>
 </html>
