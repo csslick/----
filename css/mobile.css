@@ -30,7 +30,7 @@
 /* 메뉴 안보임(기본 상태) */
 .title-container header nav {
     position: absolute;
-    background: #ccc;
+    background: #666;
     left: 0;
     top: 0;
     width: 100%;
