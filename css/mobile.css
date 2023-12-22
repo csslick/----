@@ -1,4 +1,5 @@
 /* mobile.css */
+
 /* pc.css */
 .container {
     width: 100%;
@@ -23,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(255,255,255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     position: relative;
 }
 
@@ -38,12 +39,14 @@
     padding: 80px 20px;
     /* display: none; */
     transform: translateX(-100%);
-    transition-duration: 0.3s;
+    opacity: 0;
+    /* transition-duration: 0.3s; */
 }
 
 /* 메뉴 보임 */
 .title-container header nav.show {
     /* display: block; */
+    opacity: 1;
     transform: translateX(0);
 }
 
@@ -94,12 +97,12 @@
     font-weight: normal;
 }
 
-#title > div {
+#title>div {
     padding-left: 10%;
     padding-right: 10%;
 }
 
-#title > div > p {
+#title>div>p {
     display: none;
 }
 
